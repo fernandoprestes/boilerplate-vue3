@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
-    <h1 class="text-2xl text-purple-900">HelloWorld</h1>
-  </div>
+  <router-view></router-view>
 </template>
 <script lang="ts">
-  export default {};
+  export default {
+    name: 'App',
+  };
 </script>
 <style lang=""></style>
