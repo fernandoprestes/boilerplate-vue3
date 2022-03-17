@@ -7,17 +7,27 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "*.{ts,vue}": "eslint --fix"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
+    "prepare": "husky install",
+    "lint": "eslint src --ext .ts, .vue",
+    "lint:fix": "eslint src --ext .ts, .vue --fix",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tx,vue}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{html,css,less,ejs,json}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
