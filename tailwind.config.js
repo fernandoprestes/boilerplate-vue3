@@ -1,6 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js,vue}'],
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: ['./src/**/*.{html,js,jsx,ts,tsx,vue}', './src/**/*', './index.html'],
   theme: {
     container: {
       center: true,
