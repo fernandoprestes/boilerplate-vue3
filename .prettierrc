@@ -10,9 +10,9 @@
   "bracketSpacing": true,
   "endOfLine": "crlf",
   "vueIndentScriptAndStyle": true,
- 
+  "singleAttributePerLine": true,
+
   "jsxSingleQuote": false,
   "jsxBracketSameLine": true,
   "arrowParens": "avoid"
-
 }
