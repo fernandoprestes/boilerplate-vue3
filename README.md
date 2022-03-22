@@ -1,4 +1,4 @@
-# Template de projeto Vue3
+# Template de projeto Vue3 + TS
 
 Este repositório serve como um template para projetos pessoal e/ou profissional futuro, usando as seguintes tecnologias:
 
