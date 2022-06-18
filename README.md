@@ -13,6 +13,8 @@ Este repositório serve como um template para projetos pessoal e/ou profissional
 - [Eslint-plugin-vue](https://eslint.vuejs.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://typicode.github.io/husky/#/)
+- [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Vue Composition API e outros sem importar
 
 ### Ferramentas recomendadas
 
