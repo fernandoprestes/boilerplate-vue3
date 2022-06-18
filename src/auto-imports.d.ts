@@ -149,6 +149,7 @@ declare global {
   const useGeolocation: typeof import('@vueuse/core')['useGeolocation'];
   const useHead: typeof import('@vueuse/head')['useHead'];
   const useIdle: typeof import('@vueuse/core')['useIdle'];
+  const useImage: typeof import('@vueuse/core')['useImage'];
   const useInfiniteScroll: typeof import('@vueuse/core')['useInfiniteScroll'];
   const useIntersectionObserver: typeof import('@vueuse/core')['useIntersectionObserver'];
   const useInterval: typeof import('@vueuse/core')['useInterval'];
@@ -390,6 +391,7 @@ declare module 'vue' {
     useGeolocation: typeof import('@vueuse/core')['useGeolocation'];
     useHead: typeof import('@vueuse/head')['useHead'];
     useIdle: typeof import('@vueuse/core')['useIdle'];
+    useImage: typeof import('@vueuse/core')['useImage'];
     useInfiniteScroll: typeof import('@vueuse/core')['useInfiniteScroll'];
     useIntersectionObserver: typeof import('@vueuse/core')['useIntersectionObserver'];
     useInterval: typeof import('@vueuse/core')['useInterval'];

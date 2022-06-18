@@ -10,6 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
+      '@/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
 
@@ -22,6 +23,9 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
       dirs: ['src/composables', 'src/store'],
       vueTemplate: true,
+      eslintrc: {
+        enabled: true,
+      },
     }),
 
     // https://github.com/antfu/unplugin-vue-components
