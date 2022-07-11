@@ -33,4 +33,12 @@ export default defineConfig({
       dts: 'src/components.d.ts',
     }),
   ],
+
+  test: {
+    include: ['test/**/*.test.ts'],
+    environment: 'jsdom',
+    deps: {
+      inline: ['@vue', '@vueuse'],
+    },
+  },
 });
