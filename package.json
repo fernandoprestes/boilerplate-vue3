@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-vue3",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

@@ -1,6 +1,7 @@
+/// <reference types="vitest" />
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
-import path from 'path';
+import * as path from 'path';
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vite';
 
