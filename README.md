@@ -15,6 +15,8 @@ Este repositório serve como um template para projetos pessoal e/ou profissional
 - [Husky](https://typicode.github.io/husky/#/)
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Vue Composition API e outros sem importar
+- [VueUse](https://vueuse.org/)
+- [vitest](https://vitest.dev/)
 
 ### Ferramentas recomendadas
 
@@ -23,5 +25,6 @@ Este repositório serve como um template para projetos pessoal e/ou profissional
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Vitest](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer)
 
 ---
