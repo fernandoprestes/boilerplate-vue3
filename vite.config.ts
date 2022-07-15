@@ -1,9 +1,8 @@
-/// <reference types="vitest" />
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import * as path from 'path';
 import vue from '@vitejs/plugin-vue';
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -36,7 +35,7 @@ export default defineConfig({
   ],
 
   test: {
-    include: ['test/**/*.test.ts'],
+    include: ['test/**/*.test.ts', 'src/**/*.test.ts'],
     environment: 'jsdom',
     deps: {
       inline: ['@vue', '@vueuse'],

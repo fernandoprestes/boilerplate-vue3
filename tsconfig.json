@@ -18,7 +18,7 @@
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "sourceMap": true,
-    "types": ["vite/client"],
+    "types": ["vitest", "vite/client"],
     "paths": {
       "~/*": ["src/*"]
     },
@@ -27,5 +27,12 @@
 
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["dist", "node_modules"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.vite-config.json"
+    }
+  ]
 }
