@@ -1,3 +1,3 @@
 {
-  "*.js, .ts, .vue": ["eslint . --ext .vue,.ts --fix --ignore-path .gitignore", "prettier --cache --write"]
+  "*.js, .ts, .vue": ["eslint . --ext .vue,.ts,.js --fix --ignore-path .gitignore", "prettier --cache --write"]
 }
