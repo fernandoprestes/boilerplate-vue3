@@ -20,5 +20,5 @@
     "sourceType": "module"
   },
   "plugins": ["vue", "prettier"],
-  "rules": { "prettier/prettier": "error", "vue/valid-attribute-name": "off" }
+  "rules": { "prettier/prettier": "error" }
 }

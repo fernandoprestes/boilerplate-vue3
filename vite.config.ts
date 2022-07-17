@@ -1,11 +1,14 @@
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
-import * as path from 'path';
+import path from 'path';
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 4000,
+  },
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
