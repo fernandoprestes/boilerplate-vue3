@@ -17,12 +17,12 @@
     "format": "prettier --cache --write \"src/**/*.{vue,ts}\"",
     "format:check": "prettier --check .",
     "lint": "eslint . --ext .vue,.ts --fix --ignore-path .gitignore",
-    "lint-staged": "lint-staged",
+    "lint-staged": "lint-staged .",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "lint-staged": {
-    "*.js, .ts, .vue": [
+    "*.{js,ts,vue}": [
       "eslint --fix --ignore-path .gitignore",
       "prettier --write"
     ],
