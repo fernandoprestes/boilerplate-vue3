@@ -16,7 +16,6 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
-    "isolatedModules": true,
     "sourceMap": true,
     "types": ["vitest", "vite/client"],
     "noImplicitThis": true,

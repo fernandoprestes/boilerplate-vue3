@@ -3,5 +3,5 @@ html.dark {
 }
 
 html:not(.dark) {
-  background: #fefefe;
+  background: #eeeeee;
 }
