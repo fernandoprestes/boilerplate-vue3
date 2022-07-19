@@ -1,5 +1,6 @@
 import { defineConfig, presetTypography, presetUno, presetWebFonts } from 'unocss';
 import presetRemToPx from '@unocss/preset-rem-to-px';
+import presetIcons from '@unocss/preset-icons';
 
 export default defineConfig({
   shortcuts: [],
@@ -13,6 +14,7 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
+    presetIcons(),
     presetRemToPx(),
   ],
 });

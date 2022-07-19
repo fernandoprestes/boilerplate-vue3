@@ -1,0 +1,7 @@
+html.dark {
+  background: #222222;
+}
+
+html:not(.dark) {
+  background: #fefefe;
+}
