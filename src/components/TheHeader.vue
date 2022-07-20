@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <header class="border-b-2 border-[#60917C] dark:border-[#294A3C]">
     <div class="container-center flex justify-between py-4">
