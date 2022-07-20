@@ -17,7 +17,7 @@
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "types": ["vitest", "vite/client"],
+    "types": ["vitest", "vite/client", "vite-plugin-vue-layouts/client"],
     "noImplicitThis": true,
     "preserveValueImports": true,
     "importsNotUsedAsValues": "error",

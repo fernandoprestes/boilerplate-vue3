@@ -4,6 +4,8 @@ import path from 'path';
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vitest/config';
 import Unocss from 'unocss/vite';
+import Pages from 'vite-plugin-pages';
+import Layouts from 'vite-plugin-vue-layouts';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -21,6 +23,11 @@ export default defineConfig({
 
     // https://github.com/unocss/unocss
     Unocss(),
+
+    Pages({
+      dirs: 'src/views',
+    }),
+    Layouts(),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
