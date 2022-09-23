@@ -1,7 +1,7 @@
 html.dark {
-  background: #222222;
+  background: #101613;
 }
 
 html:not(.dark) {
-  background: #eeeeee;
+  background: #f7fff7;
 }

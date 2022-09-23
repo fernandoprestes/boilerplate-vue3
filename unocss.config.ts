@@ -14,7 +14,7 @@ export default defineConfig({
     },
   },
   shortcuts: [
-    ['text-gradient', 'bg-gradient-to-rt from-[#294A3C] via-[#60917C] to-[#96D7BB] bg-clip-text text-transparent'],
+    ['text-gradient', 'bg-gradient-to-lt from-[#294A3C] via-[#60917C] to-[#96D7BB] bg-clip-text text-transparent'],
   ],
   transformers: [transformerVariantGroup()],
   presets: [
