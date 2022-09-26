@@ -14,7 +14,7 @@
       </div>
       <button
         class="bg-primary flex items-center justify-center gap-4 rounded py-2 px-4 text-white"
-        @click="router.back()"
+        @click="router.push({ name: 'HomePage' })"
       >
         <div class="i-carbon-home text-xl" />
         Home
